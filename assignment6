@@ -1,0 +1,21 @@
+#Q: create a list of month names and print it using while loop and break on october.
+
+Days = ["January","February","March","April", "May","June","July","August", "September", "October", "November","December"]
+for x in Days:
+  print(x) 
+  if x == "October":
+    break
+
+#Q : Unpack list in python
+
+colors = ['red', 'blue', 'green']
+red, blue, *other = colors
+
+#Q : Assign single values to 6 variables using =.
+a,b,c,d,e,f = 1,2,3,4,5,6
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+print(f)
